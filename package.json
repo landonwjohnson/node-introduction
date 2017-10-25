@@ -1,16 +1,25 @@
 {
-  "name": "local",
+  "name": "node-introduction",
   "version": "1.0.0",
-  "description": "",
+  "description": "<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMountain/node-introduction.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/node-introduction/issues"
+  },
+  "homepage": "https://github.com/DevMountain/node-introduction#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
   }
 }
